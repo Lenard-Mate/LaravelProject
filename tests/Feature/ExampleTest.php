@@ -27,7 +27,7 @@ class ExampleTest extends TestCase
     {
         $response = $this->post("/questions/ask", [
             'title' => 'Why this program doesnt run ?',
-            'content' => 'ceva sau altceva!!!',
+            'content' => '!!ceva sau altceva!!!',
 
             'slug' => 'why-this-program-doesnt-run',
             'status' => 1,
